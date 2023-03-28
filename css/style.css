@@ -1,1 +1,37 @@
+/* Center main navigation */
+#main-navbar {
+  text-align: center;
+  background-color: blue;
+  overflow: hidden;
 
+}
+
+#navbar-container{
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+#main-navbar ul {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left:50%;
+  float: left;
+}
+
+#main-navbar ul li {
+  display: inline-block;
+  position:relative;
+  float:left;
+  right:50%;
+}
+
+#main-navbar ul li a {
+  display: inline-block;
+  padding: 10px, 20px;
+  text-decoration: none;
+  color: #fff;
+}
