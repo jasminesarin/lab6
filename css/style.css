@@ -40,3 +40,34 @@
 #main-navbar ul li a:hover{
   background-color:#000;
 }
+
+/* Align right-side navigation */
+
+#sidebar {
+  position:fixed;
+  right:0%;
+  width: 20%;
+  background-color:red;
+  height:100%;
+}
+
+#sidebar ul {
+  list-style-type: none;
+  text-align:center;
+  margin: 0;
+  padding: 0;
+}
+
+#sidebar ul li {
+  margin-bottom: 10px;
+}
+
+#sidebar ul li a {
+  display:block;
+  padding:15px 0;
+  text-decoration: none;
+  color: #fff;
+}
+#sidebar ul li a:hover {
+  background-color: #000;
+}
